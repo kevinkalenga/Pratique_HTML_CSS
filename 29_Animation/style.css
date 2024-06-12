@@ -1,0 +1,41 @@
+.box{
+    width: 150px;
+    height: 150px;
+    background: salmon;
+    text-align: center;
+    color:#fff;
+    
+
+    /* nom animation */
+    animation-name: tourne;
+    /* durée */
+    animation-duration: 2s;
+    /* Vitesse de l'animation */
+    animation-timing-function: ease-in-out;
+    /* delay */
+    animation-delay: 0.2s;
+    /* forwards, backward, both */
+    animation-fill-mode: forwards;
+    /* animation infini */
+    animation-iteration-count: infinite;
+    /* alternate/ reverse/alternate-reverse */
+    animation-direction: alternate;
+
+    /* proprietées raccourci */
+    /* 
+    animation:tourne 2s ease-in-out infinite alternate
+    */
+
+}
+
+@keyframes tourne {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        background: blue;
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

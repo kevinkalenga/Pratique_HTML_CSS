@@ -1,0 +1,10 @@
+.box{
+    width: 500px;
+    height: 200px;
+    margin-bottom: 2rem;
+    background: orange;
+    /* Cacher tout ce qui depasse */
+    overflow: hidden;
+    /* overflow: auto pour avoir un scroll bar à droite */
+    /* overflow: scroll = x et y */
+}

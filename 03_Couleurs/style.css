@@ -1,0 +1,39 @@
+
+    /*********************** COULEURS DES TEXTES**************** */
+p{
+    /* nom de couleurs */
+    color:blue;
+    
+}
+
+h2{
+  /* hexadecimal */
+  color:#333;
+}
+
+h1{
+  /* rgb */
+  color:rgb(17,85,59);
+}
+.content{
+  /* rgba */
+  color:rgba(157, 169, 211, 0.7);
+}
+.box{
+   /* hsl */
+   color:hsl(39, 100%, 50%);
+}
+.elmt{
+  /* hwb */
+  color:hwb(39,0%,0%);
+}
+
+/*********************** COULEURS DE FOND**************** */
+
+.container{
+  background-color:rgb(167, 245, 1);
+}
+.container2{
+  background-color:#AECD78;
+  color:white;
+}

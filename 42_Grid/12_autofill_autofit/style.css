@@ -1,0 +1,41 @@
+.cont{
+    background: salmon;
+    height: 600px;
+    display: grid;
+    /* goutiere */
+    gap:10px;
+    grid-template-rows: repeat(2, 150px);
+    /* grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    
+}
+.box1{
+    background: red;
+    
+    
+}
+.box2{
+    background:green;
+     
+    
+}
+.box3{
+    background:violet;
+
+    
+}
+.box4{
+    background:blue;
+
+    
+}
+.box5{
+    background: aqua;
+
+    
+}
+.box6{
+    background: orange;
+
+    
+}

@@ -1,0 +1,23 @@
+body{
+    --color: red;
+    --pad:20px 50px;
+    --marg:20px;
+    --fontFam:"Arial", sans-serif;
+    --fontSize:20px;
+    --w:250px;
+    --h:150px;
+}
+
+p{
+    color:var(--color);
+    padding: var(--pad);
+    margin: var(--marg);
+    font-family: var(--fontFam);
+    font-size: var(--fontSize);
+}
+
+.box{
+  background: #333;
+  width: var(--w);
+  height: var(--h);
+}

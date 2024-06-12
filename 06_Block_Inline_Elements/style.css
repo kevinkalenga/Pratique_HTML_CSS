@@ -1,0 +1,32 @@
+/* Les elements de type block prennent toute la largeur de l'espace*/
+body{
+    margin: 0;
+    padding: 0;
+}
+p{
+    background: red;
+    color:white;
+    /* 
+       Tout ce qui ne marche pas avec l'element de type inline 
+       marche bien avec un l'element de type block
+     */
+     /* 
+       Si un element de type block n'a pas de hauteut 
+       il prendra la hauteur de son parent
+     */
+}
+
+/* Les elements de type inline prennent seulement la largeur de leur contenu */
+
+span{
+    /* 
+    un element de type inline n'accepete pas la width et la height
+    un element de type inline n'accepte pas le margin-top et margin-bottom
+    un element de type inline n'accepte pas le texte-align:center
+    un element de type inline accepte le margin-left et right
+    un element de type inline accepte le padding sur le 4 cotés
+    */
+    background:blue;
+    padding: 10px;
+    text-align: center;
+}

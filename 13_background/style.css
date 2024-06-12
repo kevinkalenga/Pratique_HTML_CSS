@@ -1,0 +1,24 @@
+.box{
+    width: 100%;
+    height: 100vh;
+    /* Appliquer une couleur */
+    background-color: red;
+
+    /* Appliquer une image de fond */
+    background-image: url(kitchen-2565105_1280.jpg);
+    /*Gerer la position du fond: x,y ou center*/
+    /* background-position: 20px 650px; pour la position de l'img*/
+    background-position: center;
+    /* background-size: cover ou une valeur en % pour la taille de l'img */
+      background-size:contain; /* La taille du parent*/
+      /* repetion de l'img:repeat-x, repeat-y, no-repeat */
+      background-repeat: no-repeat;
+      /* propriétées raccourcis: no-repeat(bg-repeat) center(bg-position) / cover(bg-size) url(bg-img) */
+
+      /* figer l'image */
+      background-attachment: fixed;
+
+}
+body{
+    margin: 0;
+}

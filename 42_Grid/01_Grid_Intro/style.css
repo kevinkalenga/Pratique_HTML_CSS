@@ -1,0 +1,39 @@
+.cont{
+    background: salmon;
+    height: 400px;
+    display: grid;
+    /* rangée */
+    grid-template-rows: 150px 150px;
+    /* culumn */
+    grid-template-columns: 250px 250px 250px;
+}
+.box1{
+    background: red;
+
+    
+}
+.box2{
+    background:green;
+
+    
+}
+.box3{
+    background:violet;
+
+    
+}
+.box4{
+    background:blue;
+
+    
+}
+.box5{
+    background: aqua;
+
+    
+}
+.box6{
+    background: orange;
+
+    
+}

@@ -1,0 +1,35 @@
+.cont{
+    height: 500px;
+    background: salmon;
+    display: flex;
+    
+}
+
+.item{
+    width: 150px;
+    height: 150px;
+    background: red;
+    margin: 1rem;
+    
+    
+}
+
+.item:first-child{
+    
+    background: blue;
+    align-self: flex-end;
+    margin-right: auto;
+}
+
+.item:nth-child(2){
+    background: green;
+    align-self: flex-start;
+    
+}
+.item:nth-child(3){
+    
+    background: aqua;
+    align-self: center;
+    
+    
+}

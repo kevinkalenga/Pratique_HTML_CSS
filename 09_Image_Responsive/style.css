@@ -1,0 +1,16 @@
+img{
+    /* son parent c'est le body */
+    width: 100%;
+    height:auto;
+    object-fit: cover;
+}
+
+.box{
+    max-width: 750px;
+    width: 100%;
+}
+.box img{
+    /* l'img ne fera pas plus de 750px la taille de son parent */
+    width: 100%;
+    height: auto;
+}

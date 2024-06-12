@@ -1,0 +1,9 @@
+/* 
+Les vendors permettent au navigateur de forcer certaines 
+proprietées qui ne sont pas supportées */
+
+/* -o- = pour opera
+-moz- = mozilla
+-webkit- = chrome, safari, android
+-ms- = microsoft
+-khtml = pour KHTML */

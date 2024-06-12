@@ -1,0 +1,29 @@
+span{
+    /* il reste un element inline qui va avoir un comportement block */
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    background: orange;
+}
+h1{
+    /* transformer à un element inline */
+    background: violet;
+    display: inline;
+}
+
+.box{
+    width:100%;
+    height: 150px;
+    background:yellow;
+    /* display: flex pour aligner elements sur l'axe horizontal; */
+    /* display:grid pour faire des grilles */
+    /* display : none pour faire disparaitre  et l'element disparait du flux */
+}
+.box2{
+    background: salmon;
+    /* inline flex:un melage entre inline et flex */
+    display: inline-flex;
+    /* inline grid: un melange entre inline et grid */
+    /* inline table */
+
+}

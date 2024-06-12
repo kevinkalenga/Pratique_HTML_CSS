@@ -1,0 +1,43 @@
+/******************Margin****************** */
+
+.box{
+    width: 500px;
+    height: 500px;
+    background: salmon;
+    /* margin:marge à l'exterieur */
+    /* margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-bottom: 20px; */
+    /* 4 cotés */
+    margin: 50px;
+    /* haut et bas / gauche et droite */
+    margin: 30px 40px;
+    /* haut / gauche et droite / bas */
+    margin: 30px 25px 10px;
+    /* haut / droite / bas / gauche */
+    margin: 10px 20px 30px 40px;
+    
+}
+
+/*******************Pardding******************* */
+
+.box1{
+    width: 500px;
+    height: 500px;
+    background:blue;
+    /* padding: marge à l'interieur de l'element */
+    /* padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    padding-left: 80px; */
+
+    /* 4 cotés */
+    padding: 50px;
+    /* haut et bas / gauche et droite */
+    padding: 30px 40px;
+    /* haut / gauche et droite / bas */
+    padding: 30px 25px 10px;
+    /* haut / droite / bas / gauche */
+    padding: 10px 20px 30px 40px;
+}

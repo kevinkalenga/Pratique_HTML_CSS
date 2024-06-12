@@ -1,0 +1,62 @@
+.box{
+    width: 50%;
+    height: 225px;
+    background: #333;
+}
+/* maximum */
+@media screen and (max-width:700px){
+    h1{
+        color:red;
+        font-size: 12px;
+    }
+    .box{
+        width: 100%;
+        background: salmon;
+    }
+}
+/* minimum */
+@media screen and (min-width:1100px){
+    h1{
+        color:violet;
+    }
+}
+
+@media screen and (min-width:780px) and (max-width:1100px) {
+    h1{
+        color:blue;
+        font-style: italic;
+        font-size: 30px;
+    }
+    .box{
+        background: orange;
+    }
+}
+
+/* portrait */
+@media (min-width:780px) and (orientation:landscape){
+    
+}
+/* pour le print */
+@media print {
+    
+}
+
+/* 
+Le mot-clé only empeche les navigateurs qui ne prennent
+pas en en charge les requetes média d'appliquer les styles
+concernés. cet operateur n'a aucun effet pour les navigateurs 
+modernes
+*/
+
+@media only screen and (min-width:780px){
+    
+}
+
+/* not pour exclure des elements qui ont hover */
+@media (not(hover)) and (min-width:780px){}
+
+/* 
+  tous elements sauf ceux qui ont la proprietées color 
+  ou hover qui prendront le media ci-dessous
+ */
+@media (not(color)) or (hover) and (min-width:780px){}

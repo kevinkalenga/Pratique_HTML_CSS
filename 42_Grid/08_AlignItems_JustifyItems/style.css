@@ -1,0 +1,48 @@
+.cont{
+    background: salmon;
+    height: 600px;
+    display: grid;
+    grid-template-rows: 150px 150px;
+    grid-template-columns:150px 150px 150px;
+    /* goutiere */
+    gap:10px;
+    /* Alignement sur x : center, end, left, start,right */
+    justify-items:center ;
+    /* Alignement sur y : flex-start, flex-end, end, start, stretch */
+    align-items: end;
+
+    /* proprieté raccourcis place items */
+     place-items: center;
+     place-items: center start;
+    
+
+}
+.box1{
+    background: red;
+    
+}
+.box2{
+    background:green;
+
+    
+}
+.box3{
+    background:violet;
+
+    
+}
+.box4{
+    background:blue;
+
+    
+}
+.box5{
+    background: aqua;
+
+    
+}
+.box6{
+    background: orange;
+
+    
+}

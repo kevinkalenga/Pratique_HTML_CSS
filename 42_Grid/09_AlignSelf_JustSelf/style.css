@@ -1,0 +1,42 @@
+.cont{
+    background: salmon;
+    height: 600px;
+    display: grid;
+    grid-template-rows: 150px 150px;
+    grid-template-columns:150px 150px 150px;
+    /* goutiere */
+    gap:10px;
+    
+}
+.box1{
+    background: red;
+    /* sur x: right, flex-start, flex-start, right, left, end */
+    justify-self: end;
+    justify-self: center;
+    
+}
+.box2{
+    background:green;
+     /* sur y : center, flex-start, flex-end, end, start, stretch */
+    
+}
+.box3{
+    background:violet;
+
+    
+}
+.box4{
+    background:blue;
+
+    
+}
+.box5{
+    background: aqua;
+
+    
+}
+.box6{
+    background: orange;
+
+    
+}

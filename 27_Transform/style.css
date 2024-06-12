@@ -1,0 +1,39 @@
+.cont{
+    width: 400px;
+    height: 200px;
+    perspective: 500px;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background: salmon;
+    /* Transform */
+    /* transform: translate(30px, 50px) la valeure de x et y; */
+    /* transform: translate(30px, 50%); */
+    /* transform : translateX(50px) l'axe horizontal(x) */
+    /* transform : translateY(50px) l'axe vertical(y) */
+
+    
+    /* rotation */
+    /* transform: rotate(30deg); */
+
+    /* deformation */
+    /* transform: skew(25deg, 30deg); */
+
+
+    /* ratio */
+    /* transform: scale(2); */
+
+    /* Plusieurs transform */
+    /* transform:translateX(50px) rotate(30deg) scale(1.2) */
+
+    /* persepective */
+    /* transform: translateZ(100px); */
+    /* transform: translate3d(0,0,-1000px); */
+
+    /* transform: rotate3d(5, -5.0, -2.0, 150deg); */
+    /* transform-origin: bottom right 60px; */
+
+    /* Matrix */
+    transform: matrix(1.0, 2.0, 3.0, 4.0, 5.0, 6.0);
+}

@@ -1,0 +1,16 @@
+.cont{
+    height: 500px;
+    background: salmon;
+    display: flex;
+    flex-flow: row wrap;
+    /* align-content: flex-start, flex-end, space-around, space-between */
+    /* align-content permet de mieux gerer les wrapping des nos items */
+    align-content: space-around;
+
+}
+.item{
+    width: 150px;
+    height: 150px;
+    background: red;
+    margin: 1rem;
+}

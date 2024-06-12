@@ -1,0 +1,42 @@
+.cont{
+    background: salmon;
+    height: 400px;
+    display: grid;
+    /* On creer deux rangée et on leur donne des noms */
+    grid-template-rows: [head-start]150px [head-end]150px;
+    grid-template-columns: repeat(3, [col-start]1fr[col-end]);
+    /* grid-template-columns:repeat(3, 1fr); */
+    /* goutiere */
+    gap:10px;
+}
+.box1{
+    background: red;
+
+    grid-row: head-start / head-end;
+    grid-column: col-start 2 / col-end 3;
+}
+.box2{
+    background:green;
+
+    
+}
+.box3{
+    background:violet;
+
+    
+}
+.box4{
+    background:blue;
+
+    
+}
+.box5{
+    background: aqua;
+
+    
+}
+.box6{
+    background: orange;
+
+    
+}

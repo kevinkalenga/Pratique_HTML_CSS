@@ -1,0 +1,16 @@
+.cont{
+    height: 800px;
+    background: salmon;
+    display: flex;
+    /* flex-direction: row, row-reverse, culumn, culumn-reverse */
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.item{
+    width: 150px;
+    height: 150px;
+    background: red;
+    margin: 1rem;
+}

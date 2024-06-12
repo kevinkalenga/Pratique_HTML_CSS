@@ -1,0 +1,33 @@
+.cont{
+    height: 500px;
+    background: salmon;
+    display: flex;
+    
+}
+.item{
+    width: 150px;
+    height: 150px;
+    background: red;
+    margin: 1rem;
+    /* proprietée raccourci */
+    /* flex-grow / flex-shrink / flex-basis */
+    flex:0 0 300px;
+}
+
+.item:first-child{
+    /* proprietées liées aux enfants */
+    background: blue;
+    /* trois fois plus de place que les autres */
+    /* flex-grow: 3; */
+}
+
+.item:nth-child(2){
+    background: green;
+    /* flex-grow: 2; */
+}
+.item:nth-child(3){
+    /* flex-shrink sert à retrecir l'element */
+    /* flex-basis fonctionne comme la width */
+    background: aqua;
+    /* flex-basis: 250px; */
+}

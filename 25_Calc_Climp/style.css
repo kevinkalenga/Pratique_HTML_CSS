@@ -1,0 +1,21 @@
+/* 
+La fonction calc permet de faire des calculs pour determiner
+la valeur d'une proprietée en css
+*/
+
+p{
+    /* nous pouvons faire la multi, divi, soustra et addit */
+    font-size: calc(25px + 2vw - 2px);
+
+}
+
+.box{
+    width: calc(100% - 80px);
+    height: 200px;
+    background: blue;
+}
+.box2{
+    margin-top: 1rem;
+    width: clamp(10px, 4rem, 80px);
+    background: orangered;
+}

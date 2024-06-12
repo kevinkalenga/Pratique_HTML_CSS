@@ -1,0 +1,23 @@
+.cont{
+    height: 500px;
+    background: salmon;
+    display: flex;
+    /* Alignement Horizontal: right, end, flex-start, flex-end, start, 
+    left, center, space-between, space-around, space-evenly */
+    justify-content: space-around;
+
+    /* 
+      Alignement Verticale:center, flex-end, stretch, flex-start
+    */
+    /* 
+      Avec stretch l'element prendras toute la hauteur de 
+      haut en bas et on ne definit pas la hauteur sur l'element
+    */
+    align-items: flex-end;
+}
+.item{
+    width: 150px;
+    height: 150px;
+    background: red;
+    margin: 1rem;
+}

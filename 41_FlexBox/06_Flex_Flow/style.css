@@ -1,0 +1,13 @@
+.cont{
+    height: 500px;
+    background: salmon;
+    display: flex;
+    /* flex-flow raccourci de flex-wrap et flex-direction */
+    flex-flow: row wrap;
+}
+.item{
+    width: 150px;
+    height: 150px;
+    background: red;
+    margin: 1rem;
+}

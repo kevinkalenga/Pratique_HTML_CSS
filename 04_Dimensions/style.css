@@ -1,0 +1,33 @@
+/* ******************Dimensions********** */
+
+.box{
+    /* Largeur et Height*/
+    width: 150px;
+    height: 150px;
+    background: blue;
+}
+/*Pixel est une unité absolue 1px sera toujours égale à 1px*/
+/* On peut mettre le % qui est une unité relative à la largeur d'ecran  */
+/* La haureur d'un element en % s addapte en fonction de son element parent */
+
+/* 
+body{
+  height:100vh
+}
+.box{
+  width:50%;
+  height:50%;
+}
+*/
+
+.box1{
+    background:red;
+    width: 100%;
+    /* max-width = Largeur maximal */
+    max-width:750px;
+    /* min-width:Largeur minimal */
+    min-width: 500px;
+    height: 150px;
+    /* min-height */
+    /* max-height */
+}

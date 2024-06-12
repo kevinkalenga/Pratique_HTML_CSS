@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,600&family=Roboto+Mono:wght@300&display=swap');
+p{
+    /* Appliquer une couleur */
+    color:#fff;
+    /* Appliquer un fond */
+    background: crimson;
+    /* Hauteur de ligne */
+    line-height: 1.2;
+    /* style */
+    font-style: italic;
+    /* gras:bold, 700, normal */
+    font-weight: bold;
+    /* Taille */
+    font-size: 25px;
+    /* Famille d ecriture de polce */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Melange de tout: font-style, font-weight, font-size, line-height et font-family */
+    /* font:italic 700 50px / 2 sans-serif */
+
+    /* Alignement sur x: center, left, right, justify */
+    text-align: center;
+    
+    /* Text-decoration:none, underline, overline, line-through */
+    text-decoration: underline blueviolet;
+    
+    /* white-space:nowrap pour refuser le retour à la ligne du texte */
+    white-space: nowrap;
+
+    /* text-transofrm: upperacase / lowercase / capitalize */
+    text-transform: uppercase;
+    /* word-spacing: créer l 'espace entre les mots */
+    word-spacing: 5px;
+    /* lette-spacing: créer l'espace entre les lettres */
+    letter-spacing: 3px;
+    
+}
+a{
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+}

@@ -1,0 +1,32 @@
+:root{
+    /* 
+    dans ce cas si 1rem n'est pas egale à 16px, 
+    car nous l'avions changé parce que 
+    l'element root fait referance à la taille du navigateur
+     */
+
+     font-size: 10px;
+}
+
+.box{
+    /* px unité absolue et 1px = 1px */
+    padding: 10px;
+    /* pourcentage unité relative à la largeur de l'ecran */
+    width: 100%;
+    /* vw: fait reference à la largeur du navigateur */
+    width: 100vw;
+    /* vh:fait reference à la hauteur du navigateur */
+    height: 100vh;
+
+    font-size: 10px;
+
+}
+
+p{
+    /* 1rem = 16px qui ference à la font-size par defaut du navigateur */
+    font-size: 2rem;
+    /* 
+    font-size:2em fera 20px, car son parent a 10px de font-size
+    et si il n a pas de parent il prendre 16px du navigateur
+    */
+}

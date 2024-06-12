@@ -1,0 +1,39 @@
+.cont{
+    background: salmon;
+    height: 400px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-areas: "head head head" "body body body";
+    /* goutiere */
+    gap:10px;
+}
+.box1{
+    background: red;
+    grid-area: head;
+}
+.box2{
+    background:green;
+
+    
+}
+.box3{
+    background:violet;
+
+    
+}
+.box4{
+    background:blue;
+
+    
+}
+.box5{
+    background: aqua;
+
+    
+}
+.box6{
+    background: orange;
+
+    
+}

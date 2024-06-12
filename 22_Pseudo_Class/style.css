@@ -1,0 +1,57 @@
+:root{
+    font-size: 20px;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background: salmon;
+    margin-bottom: 1rem;
+}
+
+/* ective = quand j'appuy sur mon element sans relacher */
+.box:active {
+    background: crimson;
+}
+
+/* hover =  quand je survole un element */
+
+.box:hover{
+    background: green;
+}
+/* Selectionne le premier lettre de la phrase */
+h1::first-letter{
+    color:orange;
+}
+/* focus:modifie la couleur d'un input lors d'un click */
+input:focus {
+    background: aqua;
+}
+/* checked = fonctionne avec les inputs de types checkbox */
+input:checked {
+    width: 200px;
+    height: 200px;
+}
+/* visited = quand j'ai deja visité un lien */
+a:visited{
+    color:red;
+}
+/* nth-child = pemet de selectionner un enfant */
+/* even = elements paires */
+/* odd = element impaire */
+li:nth-child(3) {
+    color:green;
+}
+/* last-child = selectionne le dernier enfant */
+/* first-child = selectionne le premier enfant */
+
+/* selectionner en excluant le p */
+li:not(p){
+    color:#8e44ad;
+}
+/* valid */
+#valide:valid {
+    background:palevioletred;
+}
+#valide:invalid {
+    background:green;
+}

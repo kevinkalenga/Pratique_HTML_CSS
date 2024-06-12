@@ -1,0 +1,11 @@
+p{
+    width: 300px;
+    height: 80px;
+    background: orange;
+}
+.txt{
+    /* il disparait mais il est resté dans le flux */
+    /* visibility: hidden; */
+    /* opacity : 0 l'element est invisible et il est resté dans le flux */
+    opacity: 0;
+}

@@ -1,0 +1,27 @@
+.box{
+    width: 300px;
+    height: 300px;
+    /* Dégradé radial */
+    /* background: radial-gradient(orange, red); */
+
+    /* Indicateurs de couleurs */
+    /* background: radial-gradient(red, orange 30%, blue 50%); */
+
+    /* position */
+    /* background: radial-gradient(at 0% 30%, red, blue); */
+
+    /* closest-side */
+    /* background: radial-gradient(ellipse closest-side, red, violet,orange); */
+
+    /* farthest-corner */
+    /* background: radial-gradient(ellipse farthest-corner, red,blue); */
+
+    /* dimension centre */
+    /* background: radial-gradient(circle 50px, red, blue, orange); */
+
+    /* Plusieurs degradés */
+    background: radial-gradient(circle at 50% 0, rgba(241,129,129,
+    0.5),rgba(255,0,0,0) 70.71%), radial-gradient(circle at 6.7% 75%, rgba(0,0,
+        255,0.5), rgba(0,0,255,0) 70.71%),
+        radial-gradient(circle at 93.3% 75%, rgba(0,255,0,0.5), rgba(0,255,0,0) 70.71%);
+}

@@ -1,0 +1,46 @@
+.cont{
+    background: salmon;
+    height: 600px;
+    display: grid;
+    grid-template-rows: repeat(2, 150px);
+    /* min-content prends la largeur du plus grand element ou mot du contenu */
+    grid-template-columns: 200px 1fr min-content;
+    /* max-content prends lalargeur totale de contenu */
+    /* grid-template-columns: 200px 1fr max-content; */
+    grid-template-columns: repeat(2, 200px)max-content;
+
+    /* grid-template-columns:repeat(3, 150px); */
+    /* goutiere */
+    gap:10px;
+    
+}
+.box1{
+    background: red;
+    
+    
+}
+.box2{
+    background:green;
+     
+    
+}
+.box3{
+    background:violet;
+
+    
+}
+.box4{
+    background:blue;
+
+    
+}
+.box5{
+    background: aqua;
+
+    
+}
+.box6{
+    background: orange;
+
+    
+}
